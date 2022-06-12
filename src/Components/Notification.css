@@ -1,0 +1,42 @@
+/* .navbar {
+  padding: 5px 40px !important;
+} */
+
+.icon-button {
+  position: relative;
+  text-align: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  width: 50px;
+  height: 50px;
+  color: #333;
+  background-color: none;
+  /* background: #ddd; */
+  border: none;
+  outline: none;
+  border-radius: 50%;
+}
+
+.icon-button--badge {
+  position: absolute;
+  top: -8px;
+  right: 3px;
+  width: 20px;
+  height: 20px;
+  background: #706fa8;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  left: -120px !important;
+}
+
+a.btn-dropdown--color {
+  background-color: #706fa8 !important;
+  color: white;
+}
